@@ -6,13 +6,12 @@
 /*   By: ohkwon <ohkwon@student.42.seoul.kr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/01 14:13:54 by ohkwon            #+#    #+#             */
-/*   Updated: 2022/03/01 22:24:33 by ohkwon           ###   ########.fr       */
+/*   Updated: 2022/03/02 09:45:42 by ohkwon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
 #include <string>
-
 class text
 {
 	private:
@@ -28,6 +27,13 @@ class text
 	void	act_output3();
 	void	echo_all();
 };
+
+class Phonebook
+{
+	private:
+	text	text[8];
+};
+
 void	text::echo_all()
 {
 		std::cout << "*********************************************" << std::endl;
